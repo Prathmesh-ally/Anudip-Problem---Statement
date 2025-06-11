@@ -3,8 +3,8 @@ public class problem18squarepattern {
         int n = 4; // You can change this value to generate a different pattern
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n; j++) {
-                if (i == 1 || i == n || j == 1 || j == n) {
-                    System.out.print("* ");
+                if (i == 2 && j ==2 || i == 3 && j ==3) {
+                    System.out.print(" * ");
                 } else {
                     System.out.print("  ");
                 }
